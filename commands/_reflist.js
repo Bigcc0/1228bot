@@ -9,7 +9,7 @@
   aliases: 📜 my refs
 CMD*/
 
-let refList = Libs.ReferralLib.getRefList()
+let refList = Libs.ReferralLib.getRefList(another_user_id);
 
 if (!refList.exist) {
   Bot.sendMessage("No any affiliated users")
