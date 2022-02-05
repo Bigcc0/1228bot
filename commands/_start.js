@@ -6,18 +6,12 @@
   folder: 
 
   <<ANSWER
-How to use this bot? /howtouse
-
-Get personal affiliate link: /mylink
-You was attracted by: /myref
-
-*Referral List*
-Get yours Referral List: /reflist
-
-
 
   ANSWER
-  keyboard: 🔗 My Link, 📜 My Refs, \n👨 My info, 📈 Top List
+
+  <<KEYBOARD
+
+  KEYBOARD
   aliases: 
 CMD*/
 
@@ -26,6 +20,10 @@ function doTouchOwnLink(){
 }
 
 function doAttracted(refUser){
+  
+  //User.setProperty("fromre",refUser.username, "string");
+  let balance = Libs.ResourcesLib.anotherUserRes("money", refUser.telegramid);
+  balance.add(1);
   Bot.sendMessage(
     "Hello" + 
     "\n\n" +
@@ -35,10 +33,11 @@ function doAttracted(refUser){
     refUser.telegramid,
     "You just attract new user: " + Libs.commonLib.getLinkFor(user)
   );
+  
 }
 
 function doAlreadyAttracted(){
-  Bot.sendMessage("You was already attracted");
+  Api.deleteMessage({chat_id:chat.chatid,message_id:request.message_id})
 }
 
 let trackOptions = {
@@ -48,6 +47,4 @@ let trackOptions = {
 }
 
 Libs.ReferralLib.track(trackOptions);
-
-
-
+Bot.runCommand("/start02")
