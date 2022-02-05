@@ -1,5 +1,5 @@
-# azxswqbot - chat bot
-It is repository for chat bot: [@azxswqbot](https://t.me/azxswqbot)
+# Cloned bot: SoyKingAirdrop_bot - chat bot
+It is repository for chat bot: [@Cloned bot: SoyKingAirdrop_bot](https://t.me/Cloned bot: SoyKingAirdrop_bot)
 
 ## What it is?
 This repository can be imported to [Bots.Business](https://bots.business) as a worked chat bot.
