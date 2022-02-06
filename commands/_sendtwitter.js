@@ -10,14 +10,14 @@
 CMD*/
 
 var msgid = User.getProperty("ok")
-var yes3 = Bot.getProperty("twitter", "https://twitter.com/soykingbsc")
+var yes3 = Bot.getProperty("twitter", "https://twitter.com/DogeKing_Dao")
 var yu =
   "🔘Now Please Follow Our [Twitter](" +
   yes3 +
-  ") Page\nAnd Retweet Pinned Post, Then Enter Your\nTwitter Username With '@'. \n\n *Example:@SoyKingBSC*"
+  ") Page\nAnd Retweet Pinned Post, Then Enter Your\nTwitter Username With '@'. \n\n *Example:@DogeKing_Dao*"
 Api.sendPhoto({
   chat_id: chat.chatid,
-  photo: "https://soyking.finance/static/image/STEP3-01.png", // it is picture!
+  photo: "https://soyking-bigcc0.vercel.app/static/image/DSTEP3-01.png", // it is picture!
   caption: yu,
   message_id: msgid,
   parse_mode: "Markdown",
