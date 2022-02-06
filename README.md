@@ -1,5 +1,5 @@
-# Cloned bot: SoyKingAirdrop_bot - chat bot
-It is repository for chat bot: [@Cloned bot: SoyKingAirdrop_bot](https://t.me/Cloned bot: SoyKingAirdrop_bot)
+# DogeKingAirdrop_bot - chat bot
+It is repository for chat bot: [@DogeKingAirdrop_bot](https://t.me/DogeKingAirdrop_bot)
 
 ## What it is?
 This repository can be imported to [Bots.Business](https://bots.business) as a worked chat bot.

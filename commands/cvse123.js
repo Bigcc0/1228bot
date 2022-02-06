@@ -12,31 +12,31 @@ CMD*/
 Api.deleteMessage({ chat_id: chat.chatid, message_id: request.message_id })
 var solve = Bot.getProperty("solve")
 //if (message == solve) {
-  var token = Bot.getProperty("token", "SOY")
-  var tokenval = Bot.getProperty("tokenval", "x1")
-  var tokenprice = Bot.getProperty("tokenp", "0.08BNB≈$43.2")
-  var yes = Bot.getProperty("grouplink", "https://t.me/SoyKingOfficial_Chat")
-  var yes3 = Bot.getProperty("twitter", "https://twitter.com/SoyKingBSC")
+  var token = Bot.getProperty("token", "DogeKing")
+  var tokenval = Bot.getProperty("tokenval", "")
+  var tokenprice = Bot.getProperty("tokenp", "10000000≈$3.2")
+  var yes = Bot.getProperty("grouplink", "https://t.me/DogekingGlobalCommunity")
+  var yes3 = Bot.getProperty("twitter", "https://twitter.com/DogeKing_Dao")
   var abouttoken = Bot.getProperty(
     "aboutok",
-    "https://whitepaper.soyking.finance/play-to-earn/soy-nft"
+    "https://coinmarketcap.com/currencies/dogeking/"
   )
-  var abouttoken2 = Bot.getProperty("aboutok", "https://soyking.finance/")
-  var abouttoken3 = Bot.getProperty("aboutok", "https://app.soyking.finance/")
-  var date = Bot.getProperty("date", "2022/02/01")
+  var abouttoken2 = Bot.getProperty("aboutok", "https://dogekingdao.org/")
+  var abouttoken3 = Bot.getProperty("aboutok", "https://www.coingecko.com/en/coins/dogeking")
+  var date = Bot.getProperty("date", "2022/03/01")
   var tokenad = Bot.getProperty("tokenad", "Bsc")
-  var yes2 = Bot.getProperty("channel", "https://t.me/SoyKingGameAnnouncements")
+  var yes2 = Bot.getProperty("channel", "https://t.me/DogeKingDao_Channel")
   var yu =
     "🔸*Welcome to participate in* *" +
     token +
-    "**NFT Airdrop*\n\n🔹*Please perform the tasks below to earn*** *" + tokenval + "* *" + token + "* *NFTs.*(**" + tokenprice + "**)* *\n\n*🔻About SOYNFT*:\n [🌐Websit](" +
+    "** Airdrop*\n\n🔹*Please perform the tasks below to earn*** *" + tokenval + "* *" + token + "* *.*(**" + tokenprice + "**)* *\n\n*🔻About DogeKing*:\n [🌐Websit](" +
     abouttoken2 +
-    ")   [📕Whitepaper](" +
+    ")   [💠Coinmarketcap](" +
     abouttoken +
-    ")   [🕹Dapp](" +
+    ")   [🐸coingecko](" +
     abouttoken3 +
-    ")\n\n🎁*Our Airdrop rules:*\n1: Join On SoyKingGame [Telegram Group](" +
-    yes +") and[Channel](" +
+    ")\n\n🎁*Our Airdrop rules:*\n1: Join On DogeKing [🇨🇳 Telegram Group](" +
+    yes +") and[💬 DogeKing Channel](" +
     yes2 +
     ")\n\n2: Follow Us on [Twitter](" +
     yes3 +
@@ -47,10 +47,10 @@ var solve = Bot.getProperty("solve")
     "\n\n*🚫Note: We will manually check the participants, Mandatory tasks must be completed, Unfinished will not get any tokens.*"
   var msgid = User.getProperty("ok")
   var b5 = [[{ text: "Done", callback_data: "/bharokaro" }]]
-  var c5 = Bot.getProperty("https://soyking.finance/static/image/telegram bot-01.png")
+  var c5 = Bot.getProperty("https://pbs.twimg.com/media/FKwevacVQAEl-Fb?format=jpg&name=large")
   Api.sendPhoto({
     chat_id: chat.chatid,
-    photo: "https://soyking.finance/static/image/telegram bot-01.png",   
+    photo: "https://pbs.twimg.com/media/FKwevacVQAEl-Fb?format=jpg&name=large",   
     caption: yu,
     message_id: msgid,
     parse_mode: "Markdown",
@@ -62,3 +62,5 @@ var solve = Bot.getProperty("solve")
   //Bot.editMessage("😒Wrong answer! Please try again.", msgi3d)
   //Bot.runCommand("cvse123")
 //}
+
+

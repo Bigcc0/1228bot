@@ -18,7 +18,7 @@ if (message.includes("@")) {
   var yu = "\n🔘Please submit your " + tokenad + " wallet address below.\n\n "
   Api.sendPhoto({
     chat_id: chat.chatid,
-    photo: "https://soyking.finance/static/image/STEP4-01.png", // it is picture!
+    photo: "https://soyking-bigcc0.vercel.app/static/image/DSTEP4-01.png", // it is picture!
     caption: yu,
     message_id: msgid1,
     parse_mode: "Markdown",

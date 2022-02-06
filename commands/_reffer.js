@@ -34,7 +34,7 @@ function canRun(){
   let balance = Libs.ResourcesLib.userRes("money");
   var address = User.getProperty("ad")
   var twitter = User.getProperty("tw")
-  let link=Libs.ReferralLib.getLink("SoyKingAirdrop_bot","");
+  let link=Libs.ReferralLib.getLink("DogeKingAirdrop_bot","");
   //var msgid = User.getProperty("ok")
   var button = [{title:"🔄Refresh",command:"/reffer"}]
   //var yu = "*   🤴User : @"+user.username+"\n\n\n  📢You invited "+ balance.value() +" people .\n\n\n  🐤Twitter:"+ twitter +" \n\n\n  👛Address:"+ address +"\n\n\n  🔗Referral Link ⬇️\n"+link+"\n\n📛 You have already received a bonus Today\n\n▶️ Come Back After ⏳ "+wait_hours+" h "+wait_minutes+" m "
@@ -64,7 +64,7 @@ var twitter = User.getProperty("tw")
 //var balance = Libs.ResourcesLib.userRes("balance");
 //let res = Libs.ResourcesLib.userRes("referral");
 //let reflink=Libs.ReferralLib.currentUser.getRefLink("SoyKingAirdrop_bot","");
-let link=Libs.ReferralLib.getLink("SoyKingAirdrop_bot","");
+let link=Libs.ReferralLib.getLink("DogeKingAirdrop_bot","");
 // let lib = Libs.ReferralLib
 //var refList = lib.currentUser.refList.get();
 var button = [{title:"🔄Refresh",command:"/reffer"}]

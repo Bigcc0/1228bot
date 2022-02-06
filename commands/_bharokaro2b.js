@@ -16,14 +16,14 @@ var message_id = request.message.message_id
         chat_id: chat_id,
         message_id: message_id
     })
-var yes2 = Bot.getProperty("grouplink", "https://t.me/SoyKingOfficial_Chat")
+var yes2 = Bot.getProperty("grouplink", "https://t.me/DogeKingDao_Channel")
 var msgid = User.getProperty("ok")
 var b5 = [[{ text: "Done", callback_data: "/bharokaro3b" }]]
 var yu =
-  "\n🔘Please Join [Group💬](" + yes2 + ") View Information About The Project."
+  "\n🔘Please Join [DogeKing-Channel](" + yes2 + ") View Information About The Project."
 Api.sendPhoto({
   chat_id: chat.chatid,
-  photo: "https://soyking.finance/static/image/STEP2-01.png", // it is picture!
+  photo: "https://soyking-bigcc0.vercel.app/static/image/DSTEP2-01.png", // it is picture!
   caption: yu,
   message_id: msgid,
   parse_mode: "Markdown",
